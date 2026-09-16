@@ -29,3 +29,28 @@ footer{padding:35px 4%;display:flex;gap:25px;border-top:1px solid #17354a}footer
   .hero-image{height:520px;min-height:520px}
   .hero-image img{object-position:center center}
 }
+
+/* V5 — polished desktop layout */
+html,body{width:100%;max-width:100%;overflow-x:hidden}
+main{width:100%}
+@media (min-width:1001px){
+  header{height:72px;padding:0 3.5%;}
+  .hero{display:grid;grid-template-columns:minmax(390px,42%) minmax(0,58%);min-height:520px;overflow:hidden}
+  .hero-copy{position:relative;top:auto;align-self:stretch;min-height:520px;padding:64px 48px;justify-content:center;overflow:visible}
+  .hero-copy small{font-size:12px}
+  .hero-copy h1{font-size:clamp(52px,5vw,72px);line-height:.88;margin:18px 0 24px;letter-spacing:-2px}
+  .hero-copy p{font-size:15px;max-width:430px}
+  .hero-image{height:520px;min-height:520px;min-width:0}
+  .hero-image img{width:100%;height:100%;object-fit:cover;object-position:center}
+  .shop{padding:58px 4.25% 70px}
+  .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+  article{padding:12px;min-width:0}
+  article img{aspect-ratio:16/9}
+  article h3{font-size:18px}
+  .add{font-size:12px}
+}
+@media (min-width:1400px){
+  .hero{grid-template-columns:40% 60%}
+  .hero-copy{padding-left:max(64px,6vw)}
+  .shop{padding-left:6%;padding-right:6%}
+}
