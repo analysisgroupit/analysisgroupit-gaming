@@ -1,9 +1,5 @@
-# ANALYSISGROUPIT GAMING V3 CLEAN
+# ANALYSISGROUPIT GAMING V4 — HERO FIX
 
-GitHub Pages ready. Upload every file in this ZIP directly to the repository root and replace the previous files.
+GitHub Pages ready. Upload every file directly to the repository root.
 
-V3 cleanup:
-- Removed the baked-in icon strip from the bottom of the hero image.
-- Kept the separate FAST SHIPPING / SECURE PAYMENT / GAMER SUPPORT section.
-- Responsive static HTML/CSS/JS; no build step.
-- Product names and prices are demo catalog values.
+V4 fix: desktop hero headline stays visible while the hero is on screen; product section and local images remain unchanged.
